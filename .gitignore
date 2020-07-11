@@ -71,6 +71,7 @@ typings/
 # dotenv environment variables file
 .env
 .env.test
+/*.env
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
@@ -105,3 +106,4 @@ dist
 
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
+.DS_Store

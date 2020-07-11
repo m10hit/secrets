@@ -64,7 +64,8 @@ passport.deserializeUser(function(id, done) {
 passport.use(new GoogleStrategy({
     clientID: process.env.CLIENT_ID,
     clientSecret: process.env.CLIENT_SECRET,
-    callbackURL: "http://localhost:3000/auth/google/secrets",
+    callbackURL: "/auth/google/callback",
+	proxy:true,
     userProfileURL:"https://www.googleapis.com/oauth2/v3/userinfo"
   },
   function(accessToken, refreshToken, profile, cb) {
@@ -75,7 +76,7 @@ passport.use(new GoogleStrategy({
   }
 ));
 
-passport.use(new FacebookStrategy({
+/*passport.use(new FacebookStrategy({
     clientID: process.env.APP_ID,
     clientSecret: process.env.APP_SECRET,
     callbackURL: "http://localhost:3000/auth/facebook/secrets"
@@ -86,7 +87,7 @@ passport.use(new FacebookStrategy({
       return cb(err, user);
     });
   }
-));
+));*/
 
 app.get("/", function(req,res){
   res.render("home");
@@ -102,7 +103,7 @@ app.get("/auth/google",
     res.redirect("/secrets");
   });
 
-  app.get('/auth/facebook',
+  /*app.get('/auth/facebook',
   passport.authenticate('facebook'));
 
   app.get('/auth/facebook/secrets',
@@ -110,7 +111,7 @@ app.get("/auth/google",
   function(req, res) {
     // Successful authentication, redirect secrets.
     res.redirect('/secrets');
-  });
+  });*/
 
 app.get("/login", function(req,res){
   res.render("login");

@@ -33,7 +33,6 @@
 * A user can also logout from the app when the message has been posted
 
 # Screenshot
-* **Home Page**
 ![](images/home-page.png)
 
 * **Register Page**

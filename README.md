@@ -32,7 +32,7 @@
 * On the next page, user can type their secret and and click on **submit** button to post their Secret on the main page.
 * A user can also logout from the app when the message has been posted
 
-# Screenshot
+# Screenshots
 ![](images/home-page.png)
 
 * **Register Page**

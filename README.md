@@ -38,6 +38,9 @@
 * **Register Page**
 ![](images/register.png)
 
+* **Login Page**
+![](images/login-page.png)
+
 * **Page when a user log in**
 ![](images/page-after-login.png)
 

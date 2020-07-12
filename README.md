@@ -33,17 +33,17 @@
 * A user can also logout from the app when the message has been posted
 
 # Screenshot
-* **Home Page
+* **Home Page**
 ![](images/home-page.png)
 
-* **Register Page
+* **Register Page**
 ![](images/register.png)
 
-* **Page when a user log in
+* **Page when a user log in**
 ![](images/page-after-login.png)
 
-* **Page where a user can type a secret
+* **Page where a user can type a secret**
 ![](images/secret-type.png)
 
-* **User posts a secret
+* **User posts a secret**
 ![](images/secret-posted.png)

@@ -31,3 +31,19 @@
 * When user is logged in, the user can see all the post. They can also click on **Submit a Secret** button which will redirect them to the next page
 * On the next page, user can type their secret and and click on **submit** button to post their Secret on the main page.
 * A user can also logout from the app when the message has been posted
+
+# Screenshot
+* **Home Page
+![](images/home-page.png)
+
+* **Register Page
+![](images/register.png)
+
+* **Page when a user log in
+![](images/page-after-login.png)
+
+* **Page where a user can type a secret
+![](images/secret-type.png)
+
+* **User posts a secret
+![](images/secret-posted.png)

@@ -1,5 +1,5 @@
 # Secrets
-🤐 An app where a user can sign up and write messages anonymously. Used OAuth2 security to authenticate the user using passport.js. Used EJS, node.js, express.js to develop the app and MongoDB as the database. Further used HTML5, CSS3 and JavaScript
+🤐 An app where a user can sign up and write messages anonymously.
 
 # Idea
 * Many people today want to comment something or say something online without revealing their identity
